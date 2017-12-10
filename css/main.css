@@ -1,0 +1,28 @@
+body {
+    font-family: 'Kotta One', serif;
+}
+header {
+    
+}
+section {
+    outline: 1px dotted purple;
+}
+.navbar-left {
+    
+  
+}
+.title {
+    outline: 1px solid blue;
+}
+.display-menu {
+    outline: 1px solid green;
+}
+.mobile-menu {
+    outline: 1px solid yellow;
+}
+.navbar-right {
+    outline: 1px solid orange;
+}
+.global-options {
+    outline: 1px solid pink;
+}
