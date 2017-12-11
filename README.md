@@ -14,7 +14,3 @@ Utilizando una paleta de colores pasteles, mas los conocimientos adquiridos sobr
 ![referencia-1](assets/docs/referencia-1.png)
 
 ![referencia-2](assets/docs/referencia-2.png)
-
-+ *Imagen Previa:*
-
-![vista previa](assets/docs/vista-previa.png)
