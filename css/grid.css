@@ -8,8 +8,8 @@
   
   .container {
     margin: 0 auto;
-    max-width: 1400px;
-    width: 100%;
+    max-width: 1500px;
+    width: 110%;
   }
   
   .row::after {

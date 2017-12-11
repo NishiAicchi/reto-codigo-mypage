@@ -1,6 +1,7 @@
 body {
     font-family: 'Kranky', cursive;
 }
+/* Navegador */
 .encabezado {
     background-color: #ecdae6;
     color: white;
@@ -12,9 +13,6 @@ body {
     width: 30%;
     text-align: center;
     text-shadow: 3px 2px #abe188;
-}
-.mobile-menu {
-    display: none;
 }
 .lado-izquierdo {
     position: relative;
@@ -30,6 +28,7 @@ body {
     padding: 6px;
     margin: 4px;
 }
+/* Primera Sección*/
 .principal-image {
     background-image: url('../assets/img/marshmallow.jpg');
     background-size: cover;
@@ -49,6 +48,7 @@ body {
 .bckgr-color {
     background-color: #b5eecd;
 }
+/* Segunda sección */
 .text {
     background-color: #ffe4c4;
     color: black;
@@ -83,6 +83,8 @@ body {
     padding: 5px;
     text-shadow: 2px 1px grey;
 }
+
+/* pie de pagina */
 .pie-pagina {
     background-color: #abe188;
     color: #ffffff;
@@ -91,8 +93,25 @@ body {
     text-shadow: 2px 1px black;
     text-align: center;
 }
-
-@media screen {
-    
-    
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 770px) {
+    .lado-izquierdo {
+        display: none;
+    }
+    .encabezado {
+        height: 22%;
+    }
+    .encabezado h1 {
+        outline: 1px solid red;
+        font-size: 24px;
+        width: 35%;
+    }
+    .mobile-menu {
+        display: inline-flex;
+    }
+    .principal-title {
+        font-size: 45px;
+        text-align: center;
+    }
 }
+
