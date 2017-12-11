@@ -1,16 +1,23 @@
 body {
     font-family: 'Kranky', cursive;
 }
-/*Clases reutilizables*/
 .encabezado {
     background-color: #ecdae6;
     color: white;
     height: 20%;
 }
+.encabezado h1 {
+    font-size: 28px;
+    margin-left: 20px;
+    width: 30%;
+    text-align: center;
+    text-shadow: 3px 2px #abe188;
+}
 .mobile-menu {
     display: none;
 }
 .lado-izquierdo {
+    position: relative;
     display: inline-flex;
     list-style: none;
     float: right;
@@ -19,7 +26,7 @@ body {
     color: #ffffff;
     font-size: 22px;
     text-decoration: none;
-    text-shadow: 3px 2px #b5eecd;
+    text-shadow: 3px 2px #abe188;
     padding: 6px;
     margin: 4px;
 }
@@ -34,9 +41,9 @@ body {
     color: #ffffff;
     display: flex;
     font-size: 55px;
-    text-shadow: 3px 2px black;
+    text-shadow: 3px 2px #ffc8c3;
     position: absolute;
-    left: 20%;
+    left: 19%;
     top: 25%;
 }
 .bckgr-color {
@@ -49,13 +56,6 @@ body {
     text-align: left;
     text-shadow: 3px 2px #ffffff;
     line-height: 1.30;
-}
-.pie-pagina {
-    background-color: #abe188;
-    color: #ffffff;
-    width: 100%;
-    height: 50px;
-    text-shadow: 2px 1px black;
 }
 .first {
     background-image: url('../assets/img/first.jpg');
@@ -75,4 +75,24 @@ body {
     background-repeat: no-repeat;
     height: 200px;
     width: 300px;
+}
+.btn {
+    background-color: #e8f8ef;
+    border: 2px dotted #cfe9dc;
+    color: white;
+    padding: 5px;
+    text-shadow: 2px 1px grey;
+}
+.pie-pagina {
+    background-color: #abe188;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    text-shadow: 2px 1px black;
+    text-align: center;
+}
+
+@media screen {
+    
+    
 }
