@@ -13,18 +13,15 @@ body {
     display: flex;
 }
 .title {
-    font-size: 26px;
+    font-size: 24px;
     text-align: center;
     text-shadow: 3px 2px #abe188;
     position: relative;
     float: left;
-    bottom: 8px;
 }
 .mobile-menu { 
     position: relative;
     float: right;
-    left: 80px;
-    bottom: 10px;
 }
 .lado-izquierdo {
     display: none;
@@ -48,7 +45,7 @@ body {
 .principal-title {
     color: #ffffff;
     display: flex;
-    font-size: 40px;
+    font-size: 55px;
     text-align: center;
     text-shadow: 3px 2px #ffc8c3;
     position: relative;
@@ -59,83 +56,64 @@ body {
     padding: 50px;
     text-align: left;
     text-shadow: 3px 2px #ffffff;
-    line-height: 1.30;
 }
 .first {
     background-image: url('../assets/img/first.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    width: 100%;
+    width: 390px;
     height: 200px;
 }
 .second {
     background-image: url('../assets/img/second.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    width: 100%;
+    width: 390px;
     height: 200px;
 }
 .third {
     background-image: url('../assets/img/third.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    width: 100%;
+    width: 390px;
     height: 200px;
 }
 .btn {
     background-color: #e8f8ef;
     border: 2px dotted #cfe9dc;
-    color: white;
+    color: black;
+    font-family: 'kranky', cursive;
+    font-size: 20px;
     padding: 5px;
-    text-shadow: 2px 1px grey;
+    text-shadow: 2px 1px #ffffff;
 }
 
 /* pie de pagina */
 .pie-pagina {
     background-color: #abe188;
-    color: black;
+    color: #ffffff;
     width: 100%;
     height: 50px;
-    text-shadow: 2px 1px #ffffff;
+    text-shadow: 2px 1px black;
     text-align: center;
 }
 
 /* mobile */
 @media (min-width: 768px) {
-    .encabezado {
-        height: 14%;
-    }
-    .encabezado h1 {
-        font-size: 28px;
-        width: 45%;
-    }
-    .mobile-menu {
-        display: flex;   
-    }
     .principal-image {
         height: 320px;
     }
     .principal-title {
-        font-size: 40px;
+        font-size: 50px;
         text-align: center;
         text-shadow: 2px 1px #ffc8c3;
     }
 }
 /* desktop */
 @media (min-width: 992px) {
-    .bkgr-color {
-        background-color: #b5eecd;
-    }
-    .encabezado {
-        height: 22%;
-    }
-    .encabezado h1 {
-        font-size: 34px;
-        width: 85%;
-    }
     .mobile-menu {
         display: none;
     }
@@ -144,16 +122,14 @@ body {
         position: relative;
         list-style: none;
         float: right;
-        left: 200px;
     }
     .principal-image {
         height: 400px;
     }
     .principal-title {
-        font-size: 50px;
+        font-size: 82px;
         text-align: center;
         text-shadow: 2px 1px #ffc8c3;
-        left: 10px;
     }
 }
 
