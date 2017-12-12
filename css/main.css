@@ -1,15 +1,18 @@
 body {
     font-family: 'Kranky', cursive;
 }
+.bkgr-color {
+    background-color: #ffe4c4;
+}
 /* Navegador */
-.encabezado {
+.navbar {
     background-color: #ecdae6;
     color: white;
     width: 100%;
-    height: 5em;
+    height: 4em;
     display: flex;
 }
-.encabezado h1 {
+.title {
     font-size: 26px;
     text-align: center;
     text-shadow: 3px 2px #abe188;
@@ -40,7 +43,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    height: 350px;
 }
 .principal-title {
     color: #ffffff;
@@ -50,13 +53,6 @@ body {
     text-shadow: 3px 2px #ffc8c3;
     position: relative;
 }
-.bckgr-1 {
-    background-color: #b5eecd;
-}
-.bckgr-2 {
-    background-color: #ffe4c4;
-}
-
 /* Segunda sección */
 .text {
     color: black;
@@ -100,10 +96,10 @@ body {
 /* pie de pagina */
 .pie-pagina {
     background-color: #abe188;
-    color: #ffffff;
+    color: black;
     width: 100%;
     height: 50px;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 1px #ffffff;
     text-align: center;
 }
 
@@ -130,6 +126,9 @@ body {
 }
 /* desktop */
 @media (min-width: 992px) {
+    .bkgr-color {
+        background-color: #b5eecd;
+    }
     .encabezado {
         height: 22%;
     }
@@ -154,8 +153,7 @@ body {
         font-size: 50px;
         text-align: center;
         text-shadow: 2px 1px #ffc8c3;
-        left: 220px;
+        left: 10px;
     }
-    
 }
 
