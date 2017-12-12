@@ -7,14 +7,16 @@
   /* Grid */
   
   .container {
+    max-width: 1445px;
     margin: 0 auto;
-    max-width: 1440px;
     width: 100%;
   }
-  
+  .row {
+    width: 100%;
+  }
   .row::after {
-    content: "";
-    display: block;
+    content: " ";
+    display: table;
     clear: both;
   }
   

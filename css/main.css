@@ -6,7 +6,6 @@ body {
 .navbar {
     background-color: #ecdae6;
     color: white;
-    width: 100%;
     height: 4em;
     display: flex;
 }
@@ -39,6 +38,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 350px;
+    width: 300px;
 }
 .principal-title {
     color: #ffffff;
@@ -109,6 +109,9 @@ body {
         font-size: 50px;
         text-align: center;
         text-shadow: 2px 1px #ffc8c3;
+    }
+    .first {
+        
     }
 }
 /* desktop */
