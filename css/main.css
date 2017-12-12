@@ -134,9 +134,8 @@ body {
         height: 22%;
     }
     .encabezado h1 {
-        outline: 1px solid red;
         font-size: 34px;
-        width: 75%;
+        width: 85%;
     }
     .mobile-menu {
         display: none;
@@ -146,6 +145,7 @@ body {
         position: relative;
         list-style: none;
         float: right;
+        left: 200px;
     }
     .principal-image {
         height: 400px;
@@ -154,7 +154,8 @@ body {
         font-size: 50px;
         text-align: center;
         text-shadow: 2px 1px #ffc8c3;
-        left: 90px;
+        left: 220px;
     }
+    
 }
 
